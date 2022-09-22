@@ -67,10 +67,10 @@ li {
   margin-bottom: 10px;
 }
 
-.content button {
+button {
   background-color: #3882f6;
   color: #fff;
-  padding: 8px 35px;
+  padding: 8px 45px;
   border-radius: 5px;
   border: none;
 }
@@ -139,4 +139,42 @@ li {
   color: #1f2937;
   font-size: 24px;
   font-weight: 700;
+}
+
+/*Sign up section*/
+.signup-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50vh;
+}
+
+.signup-content {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #3882f6;
+  color: #fff;
+  width: 80%;
+  padding: 40px 50px;
+  border-radius: 10px;
+}
+
+.signup-content p {
+  color: #e5e7eb;
+  margin-top: 10px;
+}
+
+.signup-section button {
+  border: 2px solid #fff;
+}
+
+/*footer*/
+footer {
+  height: 20vh;
+  background-color: #1f2937;
+  color: #e5e7eb;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
