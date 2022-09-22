@@ -1,0 +1,142 @@
+/*Global*/
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  display: flex;
+  flex-direction: column;
+}
+
+header {
+  background-color: #1f2937;
+  width: 100vw;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 12px;
+}
+
+.logo {
+  font-size: 24px;
+  color: #f9faf8;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-around;
+  gap: 24px;
+}
+
+.navbar a,
+li {
+  color: #e5e7eb;
+  font-size: 18px;
+  text-decoration: none;
+  list-style: none;
+}
+
+/*Hero sections*/
+.hero-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50vh;
+}
+
+.content {
+  width: 30%;
+  margin-right: 5rem;
+}
+.content h1 {
+  font-size: 48px;
+  font-weight: bold;
+  color: #f9faf8;
+  margin-bottom: 10px;
+}
+
+.content p {
+  color: #e5e7eb;
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.content button {
+  background-color: #3882f6;
+  color: #fff;
+  padding: 8px 35px;
+  border-radius: 5px;
+  border: none;
+}
+
+.image {
+  width: 500px;
+  height: 250px;
+  background-color: gray;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #f9faf8;
+}
+
+/*Information section*/
+
+.information-header {
+  display: flex;
+  justify-content: center;
+  padding: 36px;
+  font-size: 36px;
+  font-weight: bold;
+  color: #1f2937;
+}
+
+.items {
+  display: flex;
+  justify-content: center;
+  gap: 4em;
+  padding: 36px;
+}
+
+.item {
+  width: 150px;
+  text-align: center;
+  color: #1f2937;
+}
+
+.square {
+  width: 150px;
+  height: 150px;
+  margin-bottom: 8px;
+  border: 3px #3882f6 solid;
+  border-radius: 10px;
+}
+
+/*Quote section*/
+.quote-section {
+  background-color: #e5e7eb;
+  height: 50vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.quote {
+  color: #1f2937;
+  font-size: 36px;
+  font-weight: 200;
+  font-style: italic;
+  width: 65%;
+}
+
+.quote-author p {
+  color: #1f2937;
+  font-size: 24px;
+  font-weight: 700;
+}
