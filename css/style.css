@@ -75,6 +75,9 @@ button {
   border: none;
 }
 
+button:hover {
+  cursor: pointer;
+}
 .image {
   width: 500px;
   height: 250px;
